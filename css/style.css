@@ -1,0 +1,252 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Exo+2');
+*{
+    margin: 0;
+    padding: 0;
+}
+body, html {
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+    width: 100%;
+    height:100%;
+}
+body{
+    background: rgba(0, 0, 0, 0.91);
+}
+a {
+    color: white;
+    text-decoration: none;
+    transition: all.6s ease;
+    -o-transition: all.6s ease;
+    -moz-transition: all.6s ease;
+}
+
+a:hover {
+    padding: 5px;
+    color: darkred;
+    text-decoration: none;
+    transition: all.6s ease;
+    -o-transition: all.6s ease;
+    -moz-transition: all.6s ease;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+    -moz-transition: all 3s ease-out;
+    -o-transition: all 3s ease-out;
+}
+header {
+    background-color: black;
+    border-bottom: darkred 2px solid;
+    width: 99.4%;
+    height: 50px;
+    padding: 0.3%;
+}
+header>div#logo>a>img {
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+header div#logo, div#menu a {
+    color: white;
+}
+#menu{
+    display: inline-block;
+    width: 50%;
+    float: left;
+    height: 100%;
+}
+header div#menu span{
+    height: 50px;
+    margin-right: 15px;
+}
+header div#menu span a:hover{
+    background: white;
+    border-radius: 5px;
+    color: darkred;
+}
+header>div#logo {
+    width: 50%;
+    float: left;
+    display: inline-block;
+}
+header>div#logo>a>span {
+    font-size: 2.5em;
+    margin-left: 10px;
+    font-family: 'Exo 2', sans-serif;
+}
+.matrix{
+    height: 200px;
+    width: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border-color: darkred;
+    color: darkred;
+    outline-color: darkred;
+}
+.hrefs {
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 1.1em;
+}
+/* Стили для футера */
+#wrapper {
+    /*background-color: rgba(0, 0, 0, 0.91);*/
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+#content {
+    flex: 1 0 auto;
+    margin-bottom: 10px;
+ }
+footer {
+    float: left;
+    border-top: darkred 2px solid;
+    background-color: black;
+    width: 98%;
+    padding: 1%;
+    font-family: 'Exo 2', sans-serif;
+}
+@media (max-width: 1080px) {
+    #clear {
+        clear: both;
+    }
+}
+#rights {
+    float: left;
+    margin-left: 5%;
+    font-size: 1.1em;
+    margin-top: 20px;
+}
+#social {
+    float: right;
+    width: 40%;
+    margin-right: 5%;
+    margin-top: 10px;
+}
+#social>a {
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    background-color: white;
+    margin-left: 2%;
+    width: 30px;
+    height: 30px;
+    float: right;
+    color: darkred;
+    text-align: center;
+    line-height: 30px;
+    font-size: 1.2em;
+}
+#social>a:hover {
+    background-color: darkred;
+    color: white;
+}
+@media (max-width: 520px) {
+    #site_name {
+        display: none;
+    }
+    #social {
+        width: 100%;
+    }
+}
+
+.reg_form {
+    padding: 5px;
+    border: 1px solid darkred;
+    border-radius: 10px;
+    background-color: white;
+    width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 40%;
+    float: left;
+    display: block;
+    color: darkred;
+}
+.reg_form>label {
+    font-family: 'Exo 2', sans-serif;
+    width: 100%;
+    float: left;
+    font-size: 1.5em;
+}
+.reg_form>span {
+    font-family: 'Exo 2', sans-serif;
+    width: auto;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+.reg_form>input {
+    color: darkred;
+    margin-bottom: 10px;
+    text-align: left;
+    border-radius: 5px;
+    border: solid darkred 1px;
+    float: left;
+    clear: both;
+    width: 90%;
+    height: 30px;
+    font-family: 'Exo 2', sans-serif;
+    outline: none;
+}
+.line {
+    border-right: 2px solid darkred; /* Параметры линии */
+    margin-right: 20px; /* Отступ слева */
+    padding-right: 10px; /* Расстояние от линии до текста */
+}
+
+
+
+
+
+
+/*Стили для форм по лабам*/
+div.res {
+    float: right;
+    text-align: center;
+}
+
+td{
+    border: 1px solid darkred;
+}
+.buttons{
+    padding: 5px;
+    border: 1px solid darkred;
+    border-radius: 5px;
+    background: white;
+    width: min-content;
+    margin: 5px;
+    color: darkred;
+}
+.buttons:hover{
+    background: darkred;
+    color: white;
+    padding: 7px;
+    cursor: pointer;
+}
+::-webkit-scrollbar{
+    background: white;
+    border-color: darkred;
+    width:12px;
+    border-radius: 2px;
+}
+::-webkit-scrollbar-thumb{
+    border-width:1px 1px 1px 2px;
+    background-color: darkred;
+    border-radius: 2px;
+}
+::-webkit-scrollbar-track{
+    border-width:0;
+}
+::-webkit-scrollbar-track:hover{
+    border-left: solid 1px #aaa;
+    background-color: #eee;
+}
+
+
+
+

@@ -1,0 +1,16 @@
+canvas{
+    background: white;
+    margin-left: 40%;
+}
+.reg_form>input {
+    color: darkred;
+    margin-bottom: 10px;
+    text-align: left;
+    border-radius: 5px;
+    float: left;
+    clear: both;
+    width: 90%;
+    height: 30px;
+    font-family: 'Exo 2', sans-serif;
+    outline-color: darkred;
+}
